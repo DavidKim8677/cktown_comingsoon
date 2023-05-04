@@ -1,9 +1,7 @@
 body {
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  width: 1680px;
+  padding: 0;
 }
 
 .container {
@@ -14,16 +12,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 1080px) {
   .container {
     background-image: url("main_02.jpg");
+    background-repeat: no-repeat;
   }
 }
 
 @media (max-width: 500px) {
   .container {
     background-image: url("web_01.jpg");
+    background-repeat: no-repeat;
   }
 }
